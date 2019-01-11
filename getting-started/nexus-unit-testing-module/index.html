@@ -351,6 +351,13 @@
 </li>
         
           <li class="md-nav__item">
+  <a href="#nexusunittestingregisterunitteststring-namefunction-unittestfunction" title="NexusUnitTesting:RegisterUnitTest(String Name,Function UnitTestFunction)" class="md-nav__link">
+    NexusUnitTesting:RegisterUnitTest(String Name,Function UnitTestFunction)
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
   <a href="#nexusunittestingpass" title="NexusUnitTesting:Pass()" class="md-nav__link">
     NexusUnitTesting:Pass()
   </a>
@@ -442,8 +449,8 @@
 </li>
         
           <li class="md-nav__item">
-  <a href="#nexusunittestingregisterunitteststring-namefunction-unittestfunction" title="NexusUnitTesting:RegisterUnitTest(String Name,Function UnitTestFunction)" class="md-nav__link">
-    NexusUnitTesting:RegisterUnitTest(String Name,Function UnitTestFunction)
+  <a href="#nexusunittestingasserterrorsfunction-functionwitherrorstring-failuremessage" title="NexusUnitTesting:AssertErrors(Function FunctionWithError,String FailureMessage)" class="md-nav__link">
+    NexusUnitTesting:AssertErrors(Function FunctionWithError,String FailureMessage)
   </a>
   
 </li>
@@ -573,6 +580,13 @@
 </li>
         
           <li class="md-nav__item">
+  <a href="#nexusunittestingregisterunitteststring-namefunction-unittestfunction" title="NexusUnitTesting:RegisterUnitTest(String Name,Function UnitTestFunction)" class="md-nav__link">
+    NexusUnitTesting:RegisterUnitTest(String Name,Function UnitTestFunction)
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
   <a href="#nexusunittestingpass" title="NexusUnitTesting:Pass()" class="md-nav__link">
     NexusUnitTesting:Pass()
   </a>
@@ -664,8 +678,8 @@
 </li>
         
           <li class="md-nav__item">
-  <a href="#nexusunittestingregisterunitteststring-namefunction-unittestfunction" title="NexusUnitTesting:RegisterUnitTest(String Name,Function UnitTestFunction)" class="md-nav__link">
-    NexusUnitTesting:RegisterUnitTest(String Name,Function UnitTestFunction)
+  <a href="#nexusunittestingasserterrorsfunction-functionwitherrorstring-failuremessage" title="NexusUnitTesting:AssertErrors(Function FunctionWithError,String FailureMessage)" class="md-nav__link">
+    NexusUnitTesting:AssertErrors(Function FunctionWithError,String FailureMessage)
   </a>
   
 </li>
@@ -724,6 +738,11 @@ assertions. Assertions are run statically, but will
 not have an associated name and will not implicitly
 call pass at the end of a unit test.</p>
 </div>
+<h3 id="nexusunittestingregisterunitteststring-namefunction-unittestfunction"><code>NexusUnitTesting:RegisterUnitTest(String Name,Function UnitTestFunction)</code></h3>
+<p>Creates an instance of a unit test, sets the name of
+the unit test, and runs the unit test function in
+a co-routine. The given function has the unit test
+as a parameter for running assertions.</p>
 <h3 id="nexusunittestingpass"><code>NexusUnitTesting:Pass()</code></h3>
 <p>Ends the unit tests and considers the test a success.</p>
 <div class="admonition note">
@@ -803,11 +822,8 @@ data types that include floats.</p>
 <p>Asserts that a given object is <code>nil</code>.</p>
 <h3 id="nexusunittestingassertnotnilobject-actualstring-failuremessage"><code>NexusUnitTesting:AssertNotNil(Object Actual,String FailureMessage)</code></h3>
 <p>Asserts that a given object is not <code>nil</code>.</p>
-<h3 id="nexusunittestingregisterunitteststring-namefunction-unittestfunction"><code>NexusUnitTesting:RegisterUnitTest(String Name,Function UnitTestFunction)</code></h3>
-<p>Creates an instance of a unit test, sets the name of
-the unit test, and runs the unit test function in
-a co-routine. The given function has the unit test
-as a parameter for running assertions.</p>
+<h3 id="nexusunittestingasserterrorsfunction-functionwitherrorstring-failuremessage"><code>NexusUnitTesting:AssertErrors(Function FunctionWithError,String FailureMessage)</code></h3>
+<p>Asserts that a given function will produce an error.</p>
                 
                   
                 
